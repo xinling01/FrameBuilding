@@ -21,5 +21,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="显示请求数据"/>
+    <TextView
+        android:id="@+id/text_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.baidu.com"
+        android:autoLink="web"/>
 
 </LinearLayout>
